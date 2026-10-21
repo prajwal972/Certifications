@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://www.credential.net/24770c52-3eaa-40ef-bfb6-e3e7fe322758",
+  "name": "Exploring Data Visualization",
+  "description": "Skillsoft issued completion badges are earned based on viewing the percentage required or receiving a passing score when assessment is required. The business world is full of data. Using this data strategically presents a company with serious competitive advantages. The tricky part is making sense of the data and then communicating what it means. Data visualization (or data viz, for short) provides actionable insights out of what can be complex sets of data.\nIn this course, you'll learn the considerations for creating data visualizations and how to relay your message using data visualization tools. You’ll learn how to communicate clearly using data visualizing techniques. And you'll gain insight into how to use key design best practices to ensure your visualizations are clearly and accurately telling the story you want them to.",
+  "image": "https://pdf.ms.credential.net/badge/image?env=production&credential=4g9y25sp",
+  "issuer": {
+    "id": "https://api.accredible.com/v1/verifiable_credential/organizations/30023",
+    "name": "Skillsoft"
+  },
+  "validFrom": "2026-04-09T00:00:00Z",
+  "credentialSubject": {
+    "name": "Prajwal Prajwal",
+    "identifier": {
+      "type": "IdentityObject",
+      "hashed": true,
+      "identityHash": "sha256$342687f4d3b00ee6d0d4669c010d153bf07f49fbd7ebc7f7b3447d5ae98e9642",
+      "identityType": "email",
+      "salt": "68da39d8ada89b28869a08b65eb43eb1"
+    }
+  },
+  "completionDate": "2026-04-09",
+  "text3": "COMPLETION",
+  "text2": "COURSE",
+  "text1": "Exploring Data Visualization",
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "created": "2026-04-09T06:42:21Z",
+    "verificationMethod": "did:web:api.accredible.com:v1:verifiable_credential:organizations:30023#af3aaa54-dc11-11f0-8c7b-33fa304b9889",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zmY4F9sBULLLYshUWq1heURjPg2jLVQuwJUWq4XBbiNKH3mZjoTABkkBv6pNQojvVFSSKxvW9gCB7whj3N2fjLoU"
+  }
+}
